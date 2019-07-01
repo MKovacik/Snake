@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Snake</title>
+    <link href='reset.css' rel='stylesheet'>
+    <link href='master.css' rel='stylesheet'>
+    <script src='hidden.js' type='text/javascript' defer></script>
+    <script src='snake.js' type='text/javascript' defer></script>
+</head>
+
+<body onload="checkSupported();">
+    <div id="divtlogo" class="wraptocenter">
+        <center>
+            <img id="tlogo" height="100px" alt="T-Systems" src="Img/TSY_Logo_3c_p.png" ></img>
+        </center>
+    </div>
+    <div id="palygroud">
+        <table>
+            <tr>
+                <td>
+                    <div id="title">Snake</div>
+                    <div id="score_container">
+                        Score: <span id="score">0</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id='play_menu'>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div id="pausebutton" class="button button_with">
+                                        <div class="button_text">Pause</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div id="resumebutton" class="button button_with">
+                                        <div class="button_text">Resume</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <canvas id="canvas" width="400" height="300"></canvas>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id='restart_menu'>
+                        <div id="restartbutton" class="button button_with">
+                            <div class="button_text">Restart</div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

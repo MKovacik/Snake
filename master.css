@@ -1,0 +1,75 @@
+body {
+    background: #111;
+}
+
+canvas {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E20074
+}
+
+#title
+{
+    color: #E20074;
+    float: left;
+    font-size: 1.4em;
+    font-family: "Arial";
+}
+
+
+#score_container {
+    float: right;
+    color: white;
+}
+
+#restart_menu {
+    display: none;
+}
+#play_menu
+{
+    display: block;
+}
+#palygroud
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 406px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -203px;
+}
+.button {
+    border-color: dimgray;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightgrey;
+    opacity: 0.6;
+    text-align: center;
+    vertical-align: middle;
+}
+.button:hover {
+    border-color: dimgray;
+    border-style: solid;
+    border-width: 1px;
+    background-color: dimgray;
+    opacity: 0.6;
+    text-align: center;
+    vertical-align: middle;
+}
+.button_with{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.button_text{
+    font-size: 24px;
+    font-family: "Arial";
+    display: inline-block;
+    text-align: left;
+    height: 40px;
+    color: #E20074;
+    line-height: 40px;
+}
