@@ -1,7 +1,7 @@
 //You are able to wind the game only if you collect 10 food!
 
 //Start possition of snake
-var currentPosition = [50, 50];
+var currentPosition = [60, 50];
 //Start direction of snake moove - it shoud be change after Engine.InitPorporty();
 var direction = 'right';
 
